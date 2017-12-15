@@ -1,6 +1,5 @@
 <h1 style="text-align:center;">Bapusaheb Patil</h1>
 <h2 style="text-align:center;">Android Developer, UX Designer</h2>
-<p style="text-align:center;"><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/me5.png" alt="bapspatil" align="center" width="30%" height="30%" link="#000000"></p>
 
 <p style="text-align:center;">Hey, there!</p>
 <p style="text-align:center;">This website will be my personal/professional website and will house all my work.</p>
