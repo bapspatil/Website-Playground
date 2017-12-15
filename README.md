@@ -1,4 +1,4 @@
-<img src="https://github.com/bapspatil.png" alt="bapspatil" align="center" width="50%" height="50%" link="#000000">
+<img src="https://github.com/bapspatil.png" alt="bapspatil" align="center" width="30%" height="30%" link="#000000">
 
 Hey, there!
 This website will be my personal/professional website and will house all my work.
