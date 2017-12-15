@@ -1,4 +1,4 @@
-<img src="https://github.com/bapspatil.png" alt="bapspatil" align="middle">
+<img src="https://github.com/bapspatil.png" alt="bapspatil" align="center" width="50%">
 
 # Bapusaheb Patil
 
