@@ -8,9 +8,9 @@
 
 <div style="text-align:center;">
             <a href="https://medium.com/@bapspatil" style="color:#000000"><i class="fab fa-medium" style="font-size:40px;"></i></a>&nbsp;
-            <a href="https://www.linkedin.com/in/bapspatil/" style="color:#000000"><i class="fab fa-linkedin" style="font-size:40px;"></i></a>&nbsp;
+            <a href="https://www.linkedin.com/in/bapspatil/" style="color:#000000"><i class="fab fa-linkedin" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.github.com/bapspatil" style="color:#000000"><i class="fab fa-github" style="font-size:40px;"></i></a>&nbsp;
-            <a href="https://play.google.com/store/apps/dev?id=7368032842071222295" style="color:#000000"><i class="fab fa-google-play" style="font-size:40px;"></i></a>&nbsp;
+            <a href="https://play.google.com/store/apps/dev?id=7368032842071222295" style="color:#000000"><i class="fab fa-google-play" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.twitter.com/baps_patil" style="color:#000000"><i class="fab fa-twitter" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.pinterest.com/bapspatil/android/" style="color:#000000"><i class="fab fa-pinterest" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.instagram.com/bapspatil" style="color:#000000"><i class="fab fa-instagram" style="font-size:40px;"></i></a>
