@@ -3,10 +3,8 @@
 
 <h1 style="text-align:center; font-family: 'Exo 2', arial;">Bapusaheb Patil</h1>
 <h3 style="text-align:center; font-family: 'Exo 2', arial;"> Android Developer, UX Designer</h3>
-<br/>
 
 <p style="text-align:center; font-family: 'Exo 2', arial;"><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/me5.png" alt="bapspatil" align="center" width="35%" height="35%" link="#000000"></p>
-<br/>
 
 <div style="text-align:center;">
             <a href="https://play.google.com/store/apps/dev?id=7368032842071222295" style="color:#000000"><i class="fab fa-google-play" style="font-size:40px;"></i></a>&nbsp;
@@ -17,7 +15,6 @@
             <a href="https://www.pinterest.com/bapspatil/android/" style="color:#000000"><i class="fab fa-pinterest" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.instagram.com/bapspatil" style="color:#000000"><i class="fab fa-instagram" style="font-size:40px;"></i></a>
 </div>
-<br/>
 
 <p style="text-align:center; font-family: 'Exo 2', arial;">Hey, there!</p>
 <p style="text-align:center; font-family: 'Exo 2', arial;">This website will be my personal/professional website and will house all my work.</p>
