@@ -1,5 +1,4 @@
 # Bapusaheb Patil
-## Bapusaheb Patil
 
 Hey, there!
 This website will be my personal/professional website and will house all my work.
