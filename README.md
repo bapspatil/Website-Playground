@@ -8,4 +8,4 @@
 
 <p style="text-align:center;">Now, obviously, there's nothing here at the moment (duh). I'm working on building a kickass website as you read this. So stay tuned!</p>
 
-<h3 style="text-align:center;">Coming soon, sometime in January of 2018.</h2>
+<h3 style="text-align:center;">Coming soon, sometime in January of 2018.</h3>
