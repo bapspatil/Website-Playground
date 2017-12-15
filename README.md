@@ -2,7 +2,7 @@
 <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 
 <h1 style="text-align:center; font-family: 'Exo 2', arial;">Bapusaheb Patil</h1>
-<h3 style="text-align:center; font-family: 'Exo 2', arial;"> Android Developer, UX Designer</h3>
+<h3 style="text-align:center; font-family: 'Exo 2', arial;">&nbsp;Android Developer, UX Designer</h3>
 
 <p style="text-align:center; font-family: 'Exo 2', arial;"><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/me5.png" alt="bapspatil" align="center" width="35%" height="35%" link="#000000"></p>
 
