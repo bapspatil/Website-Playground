@@ -6,10 +6,8 @@
 
 <p style="text-align:center; font-family: 'Exo 2', arial;"><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/me5.png" alt="bapspatil" align="center" width="30%" height="30%" link="#000000"></p>
 
-<div class="container">
-<div class="center">
+<div style="align:center">
             <a href="https://www.linkedin.com/in/bapspatil/"><i class="fab fa-linkedin-in"></i></a>
-</div>
 </div>
 
 <p style="text-align:center; font-family: 'Exo 2', arial;">Hey, there!</p>
