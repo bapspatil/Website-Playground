@@ -1,5 +1,21 @@
-<h1 style="text-align:center;">Bapusaheb Patil</h1>
-<h3 style="text-align:center;">Android Developer, UX Designer</h3>
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<style>
+h1 {
+    text-align:center
+    font-family: 'Exo 2', verdana;
+}
+h3 {
+    text-align:center
+    font-family: 'Exo 2', verdana;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+</style>
+<h1>Bapusaheb Patil</h1>
+<h3>Android Developer, UX Designer</h3>
 
 <p style="text-align:center;"><img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/me5.png" alt="bapspatil" align="center" width="30%" height="30%" link="#000000"></p>
 
