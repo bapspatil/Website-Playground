@@ -15,7 +15,7 @@
             <a href="https://www.pinterest.com/bapspatil/android/" style="color:#000000"><i class="fab fa-pinterest" style="font-size:40px;"></i></a>&nbsp;
             <a href="https://www.instagram.com/bapspatil" style="color:#000000"><i class="fab fa-instagram" style="font-size:40px;"></i></a>
 </div>
-</br>
+<br/>
 
 <p style="text-align:center; font-family: 'Exo 2', arial;">Hey, there!</p>
 <p style="text-align:center; font-family: 'Exo 2', arial;">This website will be my personal/professional website and will house all my work.</p>
