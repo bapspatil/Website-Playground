@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-
+<body style="background-image: url("https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/background.png");">
 <h1 style="text-align:center; font-family: 'Exo 2', arial;">Bapusaheb Patil</h1>
 <h3 style="text-align:center; font-family: 'Exo 2', arial;">&nbsp;Android Developer, UX Designer</h3>
 
@@ -23,3 +23,4 @@
 <p style="text-align:center; font-family: 'Exo 2', arial;">Now, obviously, there's nothing here at the moment (duh). I'm working on building a kickass website as you read this. So stay tuned!</p>
 
 <h3 style="text-align:center; font-family: 'Exo 2', arial;">Coming soon, sometime in January of 2018.</h3>
+</body>
