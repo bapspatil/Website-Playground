@@ -39,16 +39,13 @@
             margin: 0;
             height: 100%;
             width: 100%;
-            display: table;
         }
         body {
             font-family: Roboto;
             text-align: center;
             color: white;
             margin: 0;
-            height: 100%;
-            width: 100%;
-            display: table-cell;
+            min-height: 100%;
             /*vertical-align: middle;*/
         }
 
@@ -69,6 +66,10 @@
             float: right;
         }
 
+        .container-fluid{
+            height: 100%;
+        }
+
 
         .logo{
             margin:15px auto;
@@ -80,7 +81,7 @@
             height:100vh;
             margin-top: 0;
             border-right: 1px solid rgb(0, 0, 0);
-            box-shadow: 2px 0 5px rgb(0, 0, 0);
+            box-shadow: 5px 0 5px rgb(1, 0, 0);
             z-index: 0;
         }
         .btn-group{
@@ -113,10 +114,12 @@
 
          .about-right{
             background:linear-gradient( rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.5) ), url('img/back.jpeg');
+            background-size: cover;
+            height: 100%;
         }
 
         .about-right h1{
-            margin:25vh auto 0;
+            margin:30vh auto 0;
             animation: 1s fadeIn 0.5s forwards;
             opacity: 0;
         }
@@ -161,6 +164,12 @@
             .dropdown-menu{
                 width: 70vw;
             }
+            .about-right h1{
+                margin:50px auto;
+            }
+            .about-image{
+                margin-top:10vh;
+            }
         }
 
         .btn-group{
@@ -187,9 +196,19 @@
         i {
             font-size: 1.5em;
         }
+        .col-md-9{
+            padding: 0;
+        }
 
-       
+        .footer-p{
+            margin-top: 25vh !important;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
 
+        footer p a{
+            text-decoration: none;
+            color:#fff;
+        }
     </style>
 </head>
 
@@ -249,11 +268,17 @@
                 <p>I'm a 20-year-old <a href="https://www.credential.net/jj0o9bsc">&nbsp;<em class="animated infinite pulse">Google-certified Android Developer&nbsp;</em></a> and an <a href="http://bit.do/bapsand">&nbsp;<em class="animated infinite pulse">Udacity Android Developer Nanodegree Graduate&nbsp;</em></a>.</p>
                 <p>I also love designing watchfaces for Android Wear. This website will be my personal/professional website and will house all my work.</p>
                 <p>Now, obviously, there's nothing here at the moment (duh), apart from all the links to my work. I'm working on building a kickass website as you
-                    read this. So stay tuned!</p>
+                    read this. So stay tuned!</p>                
+                <p class="footer-p">Website developed by <a href="https://adithyabhat.com">Adithya NR</a> | Bapusaheb Patil © 2018,Apache License 2.0</p>
                 
             </div>  
+            
         </div>
+        
     </div>
+    
+    
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 </body>
