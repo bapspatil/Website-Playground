@@ -12,23 +12,29 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/rich_link_preview.jpg"/>
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/favicon.ico" type="image/x-icon"/>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 
     <!-- Google
     <!-- Fonts & Glyphicons -->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
     <!-- Stylesheet -->
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         html {
             margin: 0;
             height: 100%;
@@ -36,14 +42,14 @@
             display: table;
         }
         body {
-            font-family: 'Exo 2', arial;
+            font-family: Roboto;
             text-align: center;
             color: white;
             margin: 0;
             height: 100%;
             width: 100%;
             display: table-cell;
-            vertical-align: middle;
+            /*vertical-align: middle;*/
         }
 
         h1 {
@@ -55,45 +61,161 @@
             padding-right: 5%;
         }
 
-        .gradient {
-            background: -moz-linear-gradient(226deg, rgba(247, 0, 0, 1) 0%, rgba(0, 24, 163, 1) 100%);
-            background: -webkit-linear-gradient(226deg, rgba(247, 0, 0, 1) 0%, rgba(0, 24, 163, 1) 100%);
-            background: -o-linear-gradient(226deg, rgba(247, 0, 0, 1) 0%, rgba(0, 24, 163, 1) 100%);
-            background: -ms-linear-gradient(226deg, rgba(247, 0, 0, 1) 0%, rgba(0, 24, 163, 1) 100%);
-            background: linear-gradient(224deg, rgba(247, 0, 0, 1) 0%, rgba(0, 24, 163, 1) 100%);
+       .col-md-3{
+        padding: 0;
+       }
+
+        .about-right{
+            float: right;
         }
 
-        a {
-            color: #ffffff;
+
+        .logo{
+            margin:15px auto;
         }
 
-        a:hover {
-            color: yellow;
+        .about{
+            background-color: #fff;
+            color:#000;
+            height:100vh;
+            margin-top: 0;
+            border-right: 1px solid rgb(0, 0, 0);
+            box-shadow: 2px 0 5px rgb(0, 0, 0);
+            z-index: 0;
+        }
+        .btn-group{
+            z-index: 999;
+        }
+        .about-image{
+            margin: 20vh auto;
+            margin-bottom: 15px;
+            animation: 1s fadeIn 0.2s forwards;
+            opacity: 0;
+        }
+
+        
+
+        .about-h5{
+            margin:0 auto 15px;
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+        .about p{
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+        .about a{
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+         .about-right{
+            background:linear-gradient( rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.5) ), url('img/back.jpeg');
+        }
+
+        .about-right h1{
+            margin:25vh auto 0;
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+        .about-right p{
+            margin-top:15px;
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+        h6{
+            animation: 1s fadeIn 0.5s forwards;
+            opacity: 0;
+        }
+
+        @keyframes  fadeIn{
+            100%{
+                opacity: 1;
+            }
+        }
+
+
+
+        
+
+        .active {
+            color: #000;
+            margin:15px auto;
+        }
+
+        .dropdown-menu{
+            height: 100vh;
+            width: 24vw;
+            background-color: #fff;
+            text-align: center !important;
+        }
+        .dropdown-menu .dropdown-item{
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 500px){
+            .dropdown-menu{
+                width: 70vw;
+            }
+        }
+
+        .btn-group{
+            position: absolute;
+            top:2px;
+            left:4px;
+        }
+
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+
+        .about-right p a{
+            text-decoration: none;
+            color:#fff;
+            font-size: 1em;
         }
 
         i:hover {
-            color: yellow;
+            color: #555;
         }
 
         i {
-            font-size: 40px;
+            font-size: 1.5em;
         }
+
+       
+
     </style>
 </head>
 
-<body class="gradient">
-    <br/>
-    <div class="container" style="text-align: center;">
+<body class="gradient">  
+
+    <div class="container-fluid" style="text-align: center;">
         <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <h1>Bapusaheb Patil</h1>
-                <h4>Android Developer, UX Designer</h4>
-                <br/>
-                <p>
+            <div class="col-sm-12 col-md-3 about">
+                <div class="btn-group">
+                  <button class="btn bmd-btn-icon dropdown-toggle" type="button" id="ex2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons">dehaze</i>
+                  </button>
+                  <div class="dropdown-menu  dropdown-menu-left" aria-labelledby="ex3">
+                    <a href="#" class="dropdown-item">WORK</a>
+                    <a href="#" class="dropdown-item">MEDIA</a>
+                    <a href="#" class="dropdown-item">CONTACT</a>
+
+                  </div>
+                </div>
+                <h3 class="logo">LOGO</h3>
+                <p class="about-image">
                     <img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/bapspatil.png" alt="bapspatil" align="center"
-                        width="35%" height="35%">
+                        width="45%" height="45%">
                 </p>
-                <br/>
+                <h5 class="about-h5" id="about-h5">ABOUT ME</h5>
+                <p>I make apps, watchfaces and memes. Not necessarily in that order. Also, I'm a Google-certified Android Developer.</p>
                 <div>
                     <a href="https://bit.do/bapswat">
                         <i class="far fa-clock"></i>
@@ -106,7 +228,7 @@
                         <i class="fab fa-linkedin"></i>
                     </a>&nbsp;
                     <a href="https://play.google.com/store/apps/dev?id=7368032842071222295">
-                        <i class="fab fa-google-play" style="font-size:36px;"></i>
+                        <i class="fab fa-google-play"></i>
                     </a>&nbsp;
                     <a href="https://medium.com/@bapspatil">
                         <i class="fab fa-medium"></i>
@@ -118,20 +240,22 @@
                         <i class="fab fa-pinterest"></i>
                     </a>&nbsp;
                 </div>
-                <br/>
+                <a href="#" class="btn active">DOWNLOAD RESUME</a>                
             </div>
-
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-9 about-right">
+                <h1 class="animated bounce">BAPUSAHEB PATIL</h1>
+                <h6>MOBILE APP DEVELOPER | UI/UX DESIGNER</h6>
                 <p>Hey, there!</p>
-                <p>I'm a 20-year-old <a href="https://www.credential.net/jj0o9bsc" style="background: #673AB7;">&nbsp;Google-certified Android Developer&nbsp;</a> and an <a href="http://bit.do/bapsand" style="background: #673AB7;">&nbsp;Udacity Android Developer Nanodegree Graduate&nbsp;</a>.</p>
+                <p>I'm a 20-year-old <a href="https://www.credential.net/jj0o9bsc">&nbsp;<em class="animated infinite pulse">Google-certified Android Developer&nbsp;</em></a> and an <a href="http://bit.do/bapsand">&nbsp;<em class="animated infinite pulse">Udacity Android Developer Nanodegree Graduate&nbsp;</em></a>.</p>
                 <p>I also love designing watchfaces for Android Wear. This website will be my personal/professional website and will house all my work.</p>
                 <p>Now, obviously, there's nothing here at the moment (duh), apart from all the links to my work. I'm working on building a kickass website as you
                     read this. So stay tuned!</p>
-                <h4>Coming soon, sometime in March of 2018.</h4>
-                <br/>
-            </div>
+                
+            </div>  
         </div>
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 </body>
 
 </html>
