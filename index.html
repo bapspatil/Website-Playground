@@ -12,6 +12,7 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/rich_link_preview.jpg"/>
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/favicon.ico" type="image/x-icon"/>
 
+
     
         <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -24,6 +25,7 @@
     <!-- Google
     <!-- Fonts & Glyphicons -->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -34,6 +36,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         html {
             margin: 0;
@@ -73,10 +76,14 @@
 
         .logo{
             margin:15px auto;
+            font-family: Righteous;
+            opacity: 0.8;
         }
 
         .about{
             background-color: #fff;
+            background: url('img/Asset 1.jpg');
+            background-size: contain;
             color:#000;
             min-height:100vh;
             margin-top: 0;
@@ -113,8 +120,9 @@
         }
 
          .about-right{
-            background:linear-gradient( rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.5) ), url('img/back.jpeg');
+            background:linear-gradient( rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.8) ), url('img/back.jpeg');
             background-size: cover;
+            background-position: left;
             min-height: 100vh;
         }
 
@@ -168,7 +176,7 @@
                 margin:50px auto;
             }
             .about-image{
-                margin-top:10vh;
+                margin-top:20vh;
             }
 
             .footer-p{
@@ -178,7 +186,7 @@
 
         .btn-group{
             position: absolute;
-            top:2px;
+            top:4px;
             left:4px;
         }
 
@@ -245,7 +253,7 @@
 
                   </div>
                 </div>
-                <h3 class="logo">LOGO</h3>
+                <h3 class="logo">Bapusaheb Patil</h3>
                 <p class="about-image">
                     <img src="https://raw.githubusercontent.com/bapspatil/bapspatil.github.io/master/bapspatil.png" alt="bapspatil" align="center"
                         width="45%" height="45%">
